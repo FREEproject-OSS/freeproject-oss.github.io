@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
+    margin: 0;
     background-color: #82ddff;
 }
 
@@ -8,8 +8,82 @@ body {
     padding: 8px;
 }
 
+#navigationLogo {
+    height: 50px;
+    margin: -10px;
+    margin-bottom: -15.5px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #2f4a81;
+}
+
+.navigationItem {
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.navigationLink {
+    padding-left: 20px;
+}
+
+.navigationLinker {
+    color: black;
+    text-decoration: none;
+}
+
+.navigationLinker:hover {
+    position: relative;
+    left: 5px;
+    color: white;
+    background-color: #2f4a81;
+    padding: 5px 5px 5px 5px;
+    margin-left: -10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#navigationUser:hover {
+    background-color: #29bf12;
+}
+
+.rightAlign {
+    float: right;
+    margin: 10px;
+}
+
+.rightAlignHelper {
+    top: -5px;
+}
+
 header {
     background-color: #00b0f0;
     max-height: 350px;
-    font-size: 30px;
+}
+
+/* Mobile optimisation for layout elements */
+
+.showDesktop {
+    display: unset;
+}
+
+.showMobile {
+    display: none;
+}
+
+@media (max-width: 650px) {    
+    .showDesktop {
+        display: none;
+    }
+
+    .showMobile {
+        display: unset;
+    }
+
+    .navigationLinker:hover {
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+    }
 }
