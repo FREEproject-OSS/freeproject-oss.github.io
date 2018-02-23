@@ -4,8 +4,37 @@ body {
     background-color: #82ddff;
 }
 
-.navigationSection {
+section, header, footer {
     padding: 8px;
+}
+
+#cover {
+    height: calc(100vh - 52px);
+    background: url("cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#coverAfter {
+    height: 190px;
+    background: url("coverAfter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#coverCard {
+    background-color: #00b0f0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 360px;
+    height: 130px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
 }
 
 #navigationLogo {
@@ -62,6 +91,21 @@ header {
     height: 52px;
 }
 
+footer {
+    background-color: #2f4a81;
+    color: white;
+    font-size: 20px;
+}
+
+.footerSocial {
+    color: white;
+    font-size: 50px;
+}
+
+.footerSocial:hover {
+    color: #00b0f0;
+}
+
 /* Mobile optimisation for layout elements */
 
 .showDesktop {
@@ -85,5 +129,11 @@ header {
         -webkit-border-radius: 50px;
         -moz-border-radius: 50px;
         border-radius: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    #coverCard {
+        width: calc(100vw - 60px);
     }
 }
