@@ -106,6 +106,7 @@ footer {
     background-color: #2f4a81;
     color: white;
     font-size: 20px;
+    min-height: 100px;
 }
 
 .footerSocial {
@@ -117,6 +118,10 @@ footer {
     color: #00b0f0;
 }
 
+.footerItemLink {
+    color: white;
+}
+
 /* Mobile optimisation for layout elements */
 
 .showDesktop {
@@ -125,6 +130,11 @@ footer {
 
 .showMobile {
     display: none;
+}
+
+.footerItem {
+    width: 25%;
+    float: left;
 }
 
 @media (max-width: 700px) {
@@ -146,5 +156,11 @@ footer {
 @media (max-width: 420px) {
     #coverCard {
         width: calc(100vw - 60px);
+    }
+
+    .footerItem {
+        width: 100%;
+        float: unset;
+        padding-bottom: 20px;
     }
 }
