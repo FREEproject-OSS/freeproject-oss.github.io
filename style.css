@@ -8,6 +8,15 @@ section, header, footer {
     padding: 8px;
 }
 
+a {
+    color: #2f4a81;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 #cover {
     height: calc(100vh - 52px);
     background: url("cover.png");
