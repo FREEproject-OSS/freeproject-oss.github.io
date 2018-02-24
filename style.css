@@ -80,10 +80,12 @@ a:hover {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 #navigationUser:hover {
     background-color: #29bf12;
+    text-decoration: none;
 }
 
 .rightAlign {
