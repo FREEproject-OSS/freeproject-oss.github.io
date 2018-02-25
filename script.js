@@ -1,3 +1,12 @@
+/*
+    FREEproject Website
+    The main website for FREEproject.
+
+    Contributors as shown at https://freeproject-oss.github.io/contributors.html
+
+    (C) FREEproject Open Source Systems and contributors 2018.
+*/
+
 $.fn.followTo = function (pos) {
     var $this = this, $window = $(window);
 
