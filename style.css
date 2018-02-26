@@ -37,6 +37,11 @@ button {
     border: none;
 }
 
+.secondary {
+    background-color: #2f4a81;
+    color: white;
+}
+
 #cover {
     height: calc(100vh - 52px);
     background: url("cover.png");
@@ -86,6 +91,29 @@ button {
     bottom: 30px;
     left: 20px;
     display: inline-block;
+}
+
+.feature {
+    background-color: #00b0f0;
+    min-height: calc(100vh / 3);
+}
+
+.featureItem {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding-top: calc(5vh);
+}
+
+.featureItemIcon {
+    font-size: 50px;
+}
+
+.double {
+    display: block;
+    margin-top: 20px;
+    line-height: 20px;
+    content: " ";
 }
 
 .title {
@@ -214,6 +242,12 @@ footer {
     }
 
     .footerItem {
+        width: 100%;
+        float: unset;
+        padding-bottom: 20px;
+    }
+
+    .featureItem {
         width: 100%;
         float: unset;
         padding-bottom: 20px;
