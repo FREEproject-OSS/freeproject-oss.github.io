@@ -131,6 +131,11 @@ footer {
     color: white;
 }
 
+.noVisible {
+    visibility: hidden;
+    font-size: 1px;
+}
+
 /* Mobile optimisation for layout elements */
 
 .showDesktop {
