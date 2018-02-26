@@ -26,6 +26,17 @@ a:hover {
     text-decoration: underline;
 }
 
+button {
+    font-family: 'Roboto', sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #00b0f0;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+
 #cover {
     height: calc(100vh - 52px);
     background: url("cover.png");
@@ -53,6 +64,32 @@ a:hover {
     position: absolute;
     bottom: 30px;
     left: 20px;
+}
+
+#coverSlither {
+    height: 200px;
+    background: url("cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#coverSlitherCard {
+    background-color: #00b0f0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 40px;
 }
 
 #navigationLogo {
@@ -164,6 +201,10 @@ footer {
         -webkit-border-radius: 50px;
         -moz-border-radius: 50px;
         border-radius: 50px;
+    }
+
+    .title {
+        font-size: 30px;
     }
 }
 
