@@ -216,6 +216,20 @@ footer {
     float: left;
 }
 
+@media (max-width: 850px) {
+    .footerItem {
+        width: 100%;
+        float: unset;
+        padding-bottom: 20px;
+    }
+
+    .featureItem {
+        width: 100%;
+        float: unset;
+        padding-bottom: 20px;
+    }
+}
+
 @media (max-width: 700px) {
     .showDesktop {
         display: none;
@@ -239,17 +253,5 @@ footer {
 @media (max-width: 420px) {
     #coverCard {
         width: calc(100vw - 60px);
-    }
-
-    .footerItem {
-        width: 100%;
-        float: unset;
-        padding-bottom: 20px;
-    }
-
-    .featureItem {
-        width: 100%;
-        float: unset;
-        padding-bottom: 20px;
     }
 }
